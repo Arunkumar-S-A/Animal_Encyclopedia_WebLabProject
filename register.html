@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width-device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="register-styles.css">
+    </head>
+    <body>
+        <h1>Create your Account</h1>
+        <img id="logo" src="panda1.jpg" alt="Logo"> <br>
+        <div class="reg-form">
+            <form method="post" target="_blank" action="login.html">
+                <p><label for="name">Name : </label><input name="name" id="name" type="text" required> <br></p>
+                <p><label for="email">Email : </label> <input type="email" name="email" id="email" required> <br></p>
+                <p><label for="password">Password : </label> <input type="password" name="password" id="password" required> <br></p>
+                <p><label for="gender">Gender : </label>
+                    <input name="gender" id="gender" type="radio" value="m">Male   
+                    <input name="gender" id="gender" type="radio" value="m">Female   
+                    <input name="gender" id="gender" type="radio" value="nil">Prefer not to say<br></p>
+                <p><label for="dob">Date of Birth : </label><input name="dob" id="dob" type="date" required> <br></p>
+                <p><label for="ph-no">Contact no : </label><input name="ph-no" id="ph-no" type="tel" required> <br></p>
+                <p><label for="term">Terms and Conditions : </label>
+                    <input name="term" id="accept" type="radio" value="accept">Accept   
+                    <input name="term" id="decline" type="radio" value="decline">Decline<br></p> 
+                <a href="login.html"><input type="submit" value="register"></a>
+            </form>
+        </div>
+    </body>
+</html>

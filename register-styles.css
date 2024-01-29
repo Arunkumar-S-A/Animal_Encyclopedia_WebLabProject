@@ -1,0 +1,43 @@
+#logo
+{
+    height: 12%;
+    width: 12%;
+    border-radius: 100%;
+    border: 5px black;
+    text-align: center;
+}
+h1
+{
+    color: maroon;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+body
+{
+    text-align: center;
+    background-color: teal;
+}
+form
+{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color:antiquewhite;
+    color:maroon;
+}
+
+p
+{
+   font-size: 17px;
+   font-weight: bold;
+}
+input[type=submit]
+{
+    width: 75px;
+    height: 35px;
+    font-size: 15px;
+    color: maroon;
+}
+a
+{
+    text-decoration: none;
+}

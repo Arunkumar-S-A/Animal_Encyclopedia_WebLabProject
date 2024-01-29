@@ -1,0 +1,38 @@
+#logo
+{
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    border: 1px black;
+    text-align: center;
+}
+h1
+{
+    background-color: antiquewhite;
+    color: maroon;
+}
+body
+{
+    text-align: center;
+    background-color: teal;
+}
+.input-area
+{
+    background-color:antiquewhite;
+    font-size: 20px;
+    color: maroon;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+input[type=submit]
+{
+    width: 75px;
+    height: 35px;
+    font-size: 15px;
+    color: maroon;
+}
+a
+{
+    text-decoration: none;
+}
